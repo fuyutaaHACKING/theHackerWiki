@@ -1,0 +1,18 @@
+GitHub password access for git via linux has been removed. Create a token to access to your account: https://github.com/settings/tokens
+To use the token, just type it/paste it in when you'll have to push and github will ask your password. You give the token, GitHub will take it as password.
+
+You need to have an already existing repository.
+
+git init
+git add .
+git commit -m "commit description"
+git remote add origin https://github.com/USERNAME_HERE/REPOSITORY_NAME_HERE.git
+git push -u origin master
+
+
+PUSH CODE
+
+git add .
+git commit -m "message for the commit"
+git remote add origin https://url-of-github-repo
+git push origin master
