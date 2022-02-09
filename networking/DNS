@@ -1,0 +1,10 @@
+Domain Name Sytem
+
+13 root DNSes in total
+
+Different levels of DNS servers:
+
+root : knows TLDs
+TLD (Top-Level Domain): knows DNSes with specific extension (.com / .net)
+Second-level Domain: records specify dot websites
+

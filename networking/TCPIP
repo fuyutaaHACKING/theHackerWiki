@@ -1,0 +1,13 @@
+Transmission Control Protocol/Internet Protocol
+
+4 layers:
+
+Application
+Transport
+Internet
+Network Interface
+
+CONNECTION STEPS:
+SYN
+SYN/ACK
+ACK 
