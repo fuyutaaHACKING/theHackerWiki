@@ -1,0 +1,7 @@
+/etc : most important directory. Stores files for system, tools, and top-importancy files like sudoers,passwd,shadow
+
+/var : store data frenquently accessed or writtien by services or applications (ex: log files)
+
+/root : home for root user
+
+/tmp : temporary data deleted on reboot
