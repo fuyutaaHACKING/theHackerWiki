@@ -1,1 +1,1 @@
-git add . && git commit -m "update" && git push origin master
+git add . && git commit -m "auto update by pushScript" && git push origin master
