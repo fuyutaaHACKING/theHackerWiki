@@ -1,0 +1,11 @@
+technical term for dividing a network in smaller pieces
+
+tree topology: internet/router/switch/computers
+
+subnet masks are made of 32 bits
+
+Network Address:  identify the start of a network
+
+Host Address: identify devices within a network
+
+Default Gateway: device responsible for sending data to another network
