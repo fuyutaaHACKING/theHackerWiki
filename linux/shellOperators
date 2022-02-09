@@ -1,0 +1,4 @@
+& : run command in bg
+&& : run after the previous successfully executed
+> : replace contents of a file by other content
+>> : adds content to a file while keeping previous content
