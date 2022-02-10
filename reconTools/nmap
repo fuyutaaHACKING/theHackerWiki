@@ -1,0 +1,20 @@
+-A : aggresive
+-O : output simple file containing results
+-oA : exports results in three files, three formats
+-og : exports results in greppable format
+-v -vv : verbosity level 1 / level 2
+-p- : scan all ports
+--script=vulns : uses all vulns category scripts
+
+
+SCAN TYPES:
+-sT : SYN SYN/ACK ACK
+-sS : SYN SYN/ACK RST (requires root permissions to create raw packages)
+-sU : UDP scan, no statuses. If no response, re-iterate, and then marks it "open | filtered", but if the port is closed, the target may respond telling it's closed via ICMP.
+-sN : NULL scan, TCP setn with no flag at all, waiting for a RST answer.
+-sF : FIN scan, sends a request containing FIN flag, expecting a RST if the port is closed.
+-sX : XMAS scan, sends malformed TCP packet and expects a RST response for closed ports.
+
+
+-sn : ping sweep: scan all IPs for a specific range 
+example : nmap -sn 10.10.10.x --) nmap -sn 10.10.10.1-254 
