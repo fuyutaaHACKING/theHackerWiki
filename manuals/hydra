@@ -1,3 +1,12 @@
+sample command:
+
+sample command for ftp:
+hydra -l UNSERNAME -P passlist.txt ftp://10.10.170.100
+
+sample command for ssh:
+hydra -l UNSERNAME -P PATH 10.10.170.100 -t 4 ssh
+
+
 HYDRA(1)                                     General Commands Manual                                     HYDRA(1)
 
 NAME
